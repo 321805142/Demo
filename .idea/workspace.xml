@@ -1,15 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48f8b4cc-2726-4d57-8c65-2d4e0c079581" name="Default Changelist" comment="" />
+    <list default="true" id="48f8b4cc-2726-4d57-8c65-2d4e0c079581" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/redis/src/main/resources/sql/city.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/redis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/chen/RedisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/com/chen/RedisApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/redis/src/test/java/com/chen/dao/testDAO.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/redis/src/main/java/com/chen/service/impl/CityServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -29,23 +46,86 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectId" id="1hfnQsQBCr26jqK5h0thGfVvQut" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/redis/src/main/resources/sql" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.chen.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Application\WorkSpace\ideaworkspace\Demo\redis\src\main\resources\sql" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.RedisApplication">
+    <configuration name="testDAO.testCityDAO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chen.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.chen.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.chen.dao.testDAO" />
+      <option name="METHOD_NAME" value="testCityDAO" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testDAO.testSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chen.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.chen.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.chen.dao.testDAO" />
+      <option name="METHOD_NAME" value="testSelect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testService.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chen.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.chen.service" />
+      <option name="MAIN_CLASS_NAME" value="com.chen.service.testService" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="redis" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.chen.RedisApplication" />
@@ -53,6 +133,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.testService.test" />
+        <item itemvalue="JUnit.testDAO.testCityDAO" />
+        <item itemvalue="JUnit.testDAO.testSelect" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -64,7 +151,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600411000282</updated>
-      <workItem from="1600411006109" duration="299000" />
+      <workItem from="1600411006109" duration="8786000" />
+      <workItem from="1600421037756" duration="2071000" />
+      <workItem from="1600433793197" duration="3529000" />
     </task>
     <servers />
   </component>
@@ -81,14 +170,62 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1600411071800" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1600422466102">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1600422466102" />
+    <state x="548" y="271" width="439" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1600421225225">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="271" width="439" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1600421225225" />
+    <state x="362" y="8" key="CommitChangelistDialog2" timestamp="1600411784719">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="362" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1600411784719" />
     <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1600411444112">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600411444112" />
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1600439445904">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600439445904" />
+    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1600439445904">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600439445904" />
+    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1600439445904">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600439445904" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1600439445904">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600439445904" />
+    <state width="1493" height="203" key="GridCell.Tab.1.bottom" timestamp="1600439445904">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600439445904" />
+    <state width="1493" height="203" key="GridCell.Tab.1.center" timestamp="1600439445904">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1600439445904" />
+    <state width="1493" height="203" key="GridCell.Tab.1.left" timestamp="1600439445904">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1600439445904" />
+    <state width="1493" height="203" key="GridCell.Tab.1.right" timestamp="1600439445904">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1600439445904" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1600411438460">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1600411438460" />
+    <state width="599" height="431" key="documentation.popup.size" timestamp="1600413019738">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="599" height="431" key="documentation.popup.size/0.0.1536.824@0.0.1536.824" timestamp="1600413019738" />
     <state x="178" y="23" key="new project wizard" timestamp="1600411053356">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
