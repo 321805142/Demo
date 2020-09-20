@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/redis/redis.iml" filepath="$PROJECT_DIR$/redis/redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-cache-leifengyang/springboot-cache-leifengyang.iml" filepath="$PROJECT_DIR$/springboot-cache-leifengyang/springboot-cache-leifengyang.iml" />
     </modules>
   </component>
 </project>
