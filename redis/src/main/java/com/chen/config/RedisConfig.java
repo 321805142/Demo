@@ -28,6 +28,7 @@ public class RedisConfig {
         GenericJackson2JsonRedisSerializer jackson2JsonRedisSerializer = new GenericJackson2JsonRedisSerializer();
 
         redisTemplate.setValueSerializer(jackson2JsonRedisSerializer);
+        redisTemplate.setHashValueSerializer(jackson2JsonRedisSerializer);
         // 设置值（value）的序列化采用FastJsonRedisSerializer。
         // redisTemplate.setHashValueSerializer(fastJsonRedisSerializer);
 

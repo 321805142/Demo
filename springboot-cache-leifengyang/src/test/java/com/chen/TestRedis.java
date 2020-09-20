@@ -8,6 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.redis.core.RedisTemplate;
 
+import javax.annotation.Resource;
+
 /**
  * @Author chenjingquan
  * @create 2020/9/19
@@ -15,7 +17,7 @@ import org.springframework.data.redis.core.RedisTemplate;
 @SpringBootTest
 public class TestRedis {
 
-    @Autowired
+    @Resource
     private RedisTemplate<String,Employee> redisTemplate;
 
     @Autowired
@@ -23,9 +25,9 @@ public class TestRedis {
 
     @Test
     public void test1() throws JsonProcessingException {
-        Employee emp = employeeService.getEmp(1);
-        redisTemplate.opsForValue().set("emp-01", emp);
-        Employee employee = redisTemplate.opsForValue().get("emp-01");
+//        Employee emp = employeeService.getEmp(1);
+//        redisTemplate.opsForValue().set("emp-01", emp);
+        Employee employee = (Employee) redisTemplate.opsForValue().get("emp-01");
 //        System.out.println(redisTemplate.getValueSerializer());
 //        Employee employee = new ObjectMapper().readValue(str, Employee.class);
         System.out.println(employee);
